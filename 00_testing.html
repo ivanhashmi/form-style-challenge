@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Oxygen&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+    * {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    body {
+        font-family: Quicksand;
+        background-color:#212121;
+        line-height: 1.8;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    #container {
+        margin: 30px auto;
+        max-width: 400px;
+        padding: 20px;
+    }
+    .form-wrap {
+        background-color:#f6f6f6;
+        padding: 15px 25px;
+        color:#383c4a;
+    }
+
+    .form-wrap h1, .form-wrap p {
+        text-align: center;
+    }
+
+    .form-wrap h1 {
+        font-family: Oxygen;
+        font-size: 40px;
+    }
+
+    .upper-text {
+        font-family: Caveat;
+        font-size: 20px;
+    }
+
+    .form-wrap .form-body {
+     margin-top: 16px;
+    }
+
+    .form-wrap .form-body label {
+        display: block;
+        color: #383c4a;
+    }
+
+    .form-wrap .form-body input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 7px;
+        border: #f4f4f4 1px solid;
+    }
+
+    .form-wrap .form-body select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 7px;
+        border: #f4f4f4 1px solid;
+    }
+
+    .form-body button {
+        display: block;
+        background-color: #55eb8a;
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: #f4f4f4 1px solid;
+        cursor: pointer;
+    }
+
+    .form-body button:hover {
+        background:#4cba73 ;
+    }
+
+    .bottom-text {
+        font-size: 15px;
+    }
+
+    footer {
+        margin-top: 20px;
+        text-align: center;
+        color: #f4f4f4;
+    }
+
+     #foot {
+        color: rgb(0, 157, 255);
+    }
+
+
+
+    </style>
+    <div id="container">
+    <div class="form-wrap">
+  <h1>Sign Up</h1>
+  <p class="upper-text">Sign Up for an Oppurtunity of a Lifetime</p>
+<div class="form-body">
+    <label for="first-name">First Name</label>
+    <input type="text" name="first-name" id="first-name">
+</div>
+<div class="form-body">
+    <label for="last-name">Last Name</label>
+    <input type="text" name="last-name" id="last-name">
+</div>
+<div class="form-body">
+    <label for="gender">Gender</label>
+    <select name="gender" id="gender">
+        <option value="heterosexual">Heterosexual</option>
+        <option value="gay/lesbian">Gay/Lesbian</option>
+        <option value="bisexual">Bisexual</option>
+        <option value="transgender">Transgender</option>
+        <option value="non-binary">Non Binary</option>
+        <option value="others">Others</option>
+    </select>
+</div>
+<div class="form-body">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+</div >
+<div class="form-body">
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password">  
+</div>
+<div class="form-body">
+    <label for="password2">Confirm Password</label>
+    <input type="password" name="password2" id="password2">
+</div>
+<div class="form-body">
+<button type="submit" class="btn">Sign Up</button>
+</div>
+<p class="bottom-text">
+    By pressing the Sign Up button, You agree to our 
+    <a href="#">Terms & Conditions</a> and 
+    <a href="#">Privacy Policy.</a>
+</p>
+</div>
+<footer>Already have an account? <a id="foot" href="#">Login Here</a></footer>
+</div>
+   
+
+
+    
+</body>
+</html>
